@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="result" readonly>
+		</div>
+		<div class="buttons">
+		    
+			<button class="operator" onclick="clearResult()">AC</button>
+			<button class="operator" onclick="deleteValue()">&#x232b;</button>
+			<button class="operator" onclick="insertValue('(')">(</button>
+			<button class="operator" onclick="insertValue(')')">)</button>
+			<button class="operator" onclick="insertValue('/')">÷</button>
+			<button onclick="insertValue('7')">7</button>
+			<button onclick="insertValue('8')">8</button>
+			<button onclick="insertValue('9')">9</button>
+			<button class="operator" onclick="insertValue('*')">x</button>
+			<button onclick="insertValue('4')">4</button>
+			<button onclick="insertValue('5')">5</button>
+			<button onclick="insertValue('6')">6</button>
+			<button class="operator" onclick="insertValue('-')">-</button>
+			<button onclick="insertValue('1')">1</button>
+			<button onclick="insertValue('2')">2</button>
+			<button onclick="insertValue('3')">3</button>
+			<button class="operator" onclick="insertValue('+')">+</button>
+			<button id="zero" onclick="insertValue('0')">0</button>
+				<button onclick="insertValue('.')">.</button>
+				<button class="equal" id="first" onclick="calculate()">=</button>
+		</div>
+	</div>
+
+	<script src="Calculator.js"></script>
+</body>
+</html>
