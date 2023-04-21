@@ -56,7 +56,7 @@ body{
 	font-size: 20px;
 }
 
-.buttons: equal {
+.buttons equal {
     background-color: orange;
 }
 
@@ -82,12 +82,12 @@ body{
 	width: 50%;
 }
 
-.equal= {
+.equal {
     background-color: orange;
     
 }
 
 button#first {
     
-    background-color: ,orange;
+    background-color: orange;
 }
